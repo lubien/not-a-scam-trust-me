@@ -1,0 +1,14 @@
+{
+  "name": "hello-http",
+  "version": "1.0.0",
+  "description": "A minimal HTTP server for local development.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ./test.js index.js",
+    "test": "node test.js",
+    "dev": "node -r ./test.js index.js"
+  },
+  "keywords": ["http", "server", "demo"],
+  "author": "",
+  "license": "MIT"
+}

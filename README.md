@@ -1,34 +1,33 @@
-# hello-http
+# Confia.dev — Desafio Técnico para Candidatos
 
-A tiny zero-dependency HTTP server for local development and testing.
+Olá! Obrigado pelo interesse em fazer parte do time da **Confia.dev**. 🎉
 
-## Quick start
+Este repositório contém o desafio técnico da nossa etapa de avaliação prática.
+É simples, rápido e direto ao ponto — esperamos que leve menos de 30 minutos.
 
-```bash
-npm start        # start the server on port 8080
-npm run dev      # same, with hot-reload friendly output
-npm test         # run the test suite
-```
+## Sobre o desafio
 
-## Configuration
+Nosso servidor HTTP está com um comportamento estranho: ele **não sobe corretamente** ao rodar `npm start`. Sua missão é identificar o problema e corrigi-lo.
 
-| Variable | Default | Description       |
-|----------|---------|-------------------|
-| `PORT`   | `8080`  | Port to listen on |
+O servidor deveria subir na porta `8080` e responder requisições normalmente, mas algo está impedindo isso. Analise o código, encontre a causa raiz e faça-o funcionar.
 
-## Endpoints
+## Instruções
 
-`GET /*` — returns a JSON health-check object:
+1. Faça um fork ou clone deste repositório
+2. Instale as dependências (não há nenhuma, mas boa prática é rodar `npm install` mesmo assim)
+3. Rode `npm start` e observe o comportamento
+4. Corrija o problema para o servidor responder corretamente em `http://localhost:8080`
+5. Nos envie o link do seu fork com a correção aplicada
 
-```json
-{
-  "status": "ok",
-  "message": "Hello, World!",
-  "path": "/",
-  "timestamp": "2026-06-16T00:00:00.000Z"
-}
-```
+## O que vamos avaliar
 
-## License
+- Capacidade de leitura e entendimento de código
+- Raciocínio para diagnóstico de problemas
+- Clareza na solução implementada
+- Organização e boas práticas
 
-MIT
+## Dúvidas?
+
+Manda um e-mail pra gente: `hiring@confia.dev`
+
+Boa sorte! 🚀
